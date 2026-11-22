@@ -1,5 +1,7 @@
 # ElderGuard AI
 
+[![CI](https://github.com/DINESH-7S/elderguard-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/DINESH-7S/elderguard-ai/actions/workflows/ci.yml)
+
 **Care that reaches them, wherever you are.**
 
 ElderGuard is a connected care app for older adults and the people around them. An elder, their family caregiver, their doctor, a pharmacy and a hospital all work from the same live record, each through a portal built for what they actually need to do.
@@ -154,16 +156,17 @@ npm run test:a11y                   # axe accessibility scan, WCAG 2.1 A/AA
 npm run test:mobile                 # phone-size layout
 ```
 
-Backend checks live in `backend/test_*.py`, for example `pytest test_connected_portals.py`.
+Backend unit tests (SOS escalation policy and event lifecycle) are in `backend/tests/`. Run `pytest` from `backend/`; they use the in-memory store, so no database or keys are needed. The older `backend/test_*.py` files are end-to-end scripts that print their results and expect a running stack.
 
 ## Project layout
 
 ```
-backend/            FastAPI app (app/), seed scripts, tests, SQL migrations
+backend/            FastAPI app (app/), seed scripts, tests/, SQL migrations
 frontend/           React app (src/pages per portal, src/components, src/services)
 frontend/tests/     Playwright end-to-end and accessibility tests
 docs/presentation/  Project presentation (PDF, PPTX and the scripts that build them)
 docs/report/        Mini project report (DOCX, PDF) and its build scripts
+docs/design/        Technical report and user-flow notes (Markdown)
 docs/screenshots/   Images used in this README
 ```
 

@@ -1,10 +1,9 @@
 # ElderGuard AI: Comprehensive Technical & System Architecture Report
 
 **Project Title:** ElderGuard AI — Intelligent Multi-Tier Senior Health Care & Emergency Escalation Platform  
-**Repository Path:** `c:\LOKI\Elder_guard`  
 **Date of Report:** August 10, 2026  
 **Document Version:** 1.0.0  
-**Author:** Antigravity AI Engineering Team  
+**Authors:** Dinesh N, Bhoopesh M and Dharshan V, SNS College of Technology (guide: Ms. K. Revathi)  
 
 ---
 
@@ -813,7 +812,7 @@ ALL VITALS INGESTION & ANOMALY TESTS PASSED SUCCESSFULLY!
 
 ```bash
 # Navigate to backend directory
-cd c:\LOKI\Elder_guard\backend
+cd backend
 
 # Activate virtual environment
 .\venv\Scripts\activate
@@ -842,7 +841,7 @@ Documentation Endpoints:
 
 ```bash
 # Navigate to frontend directory
-cd c:\LOKI\Elder_guard\frontend
+cd frontend
 
 # Install dependencies
 npm install
@@ -869,4 +868,4 @@ Production build output is generated in `frontend/dist/`.
 3. **Automated Drone Delivery Integration:** Integration with pharmacy logistics APIs for emergency medication delivery.
 
 ---
-*Report compiled and verified by Antigravity AI Engineering Team.*
+*Prepared by the ElderGuard team.*
