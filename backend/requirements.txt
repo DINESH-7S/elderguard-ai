@@ -66,7 +66,7 @@ urllib3==2.7.0
 uvicorn==0.52.0
 watchfiles==1.2.0
 websockets==15.0.1
-yarl==1.24.5
+yarl==1.25.1
 sqlalchemy>=2.0.0
 psycopg2-binary>=2.9.0
 apscheduler>=3.10.0
