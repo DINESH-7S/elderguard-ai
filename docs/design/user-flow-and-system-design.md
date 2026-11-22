@@ -1,8 +1,6 @@
 # ElderGuard AI — Microservices User Flow, Tech Stack & System Architecture Specifications
 
 **Project Title:** ElderGuard AI — Multi-Tier Senior Health Care & Emergency Escalation Platform  
-**Repository Path:** `c:\LOKI\Elder_guard`  
-**File Location:** `c:\LOKI\Elder_guard\Microservices_User_Flow_System_Design.md`  
 **Date:** August 13, 2026  
 **Document Version:** 1.0.0  
 
